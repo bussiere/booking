@@ -1,0 +1,64 @@
+
+C:\Windows\System32>revel package github.com/robfig/revel/samples/booking/  book
+ing
+~
+~ revel! http://robfig.github.com/revel
+~
+INFO  2013/08/12 14:43:00 revel.go:286: Loaded module C:\Documents and Settings\
+jmartinbertdel-tp\Mes documents\Mercurial\Gopath\src\github.com\robfig\revel\mod
+ules\jobs
+INFO  2013/08/12 14:43:00 revel.go:286: Loaded module C:\Documents and Settings\
+jmartinbertdel-tp\Mes documents\Mercurial\Gopath\src\github.com\robfig\revel\mod
+ules\static
+TRACE 2013/08/12 14:43:00 build.go:72: Exec: [C:\Go\bin\go.exe build -tags gorp
+-o C:\Documents and Settings\jmartinbertdel-tp\Mes documents\Mercurial\Gopath\bi
+n/github.com\robfig\revel\samples\booking\.exe github.com/robfig/revel/samples/b
+ooking/app/tmp]
+ERROR 2013/08/12 14:43:01 build.go:79: C:\Documents and Settings\jmartinbertdel-
+cp\Mes documents\Mercurial\Gopath\src\github.com\robfig\revel\samples\booking\ap
+p\tmp\main.go:13:2: cannot find package "github.com/robfig/revel/samples/booking
+//app/obs" in any of:
+        C:\Go\src\pkg\github.com\robfig\revel\samples\booking\app\obs (from $GOR
+OOT)
+        C:\Documents and Settings\jmartinbertdel-tp\Mes documents\Mercurial\Gopa
+th\src\github.com\robfig\revel\samples\booking\app\obs (from $GOPATH)
+C:\Documents and Settings\jmartinbertdel-tp\Mes documents\Mercurial\Gopath\src\g
+ithub.com\robfig\revel\samples\booking\app\tmp\main.go:14:2: cannot find package
+ "github.com/robfig/revel/samples/booking//app/ontrollers" in any of:
+        C:\Go\src\pkg\github.com\robfig\revel\samples\booking\app\ontrollers (fr
+om $GOROOT)
+        C:\Documents and Settings\jmartinbertdel-tp\Mes documents\Mercurial\Gopa
+th\src\github.com\robfig\revel\samples\booking\app\ontrollers (from $GOPATH)
+
+TRACE 2013/08/12 14:43:01 build.go:96: Exec: [C:\Go\bin\go.exe get github.com/ro
+bfig/revel/samples/booking//app/obs]
+ERROR 2013/08/12 14:43:02 build.go:99: package github.com/robfig/revel/samples/b
+ooking/app/obs
+        imports github.com/robfig/revel/samples/booking/app/obs
+        imports github.com/robfig/revel/samples/booking/app/obs: cannot find pac
+kage "github.com/robfig/revel/samples/booking/app/obs" in any of:
+        C:\Go\src\pkg\github.com\robfig\revel\samples\booking\app\obs (from $GOR
+OOT)
+        C:\Documents and Settings\jmartinbertdel-tp\Mes documents\Mercurial\Gopa
+th\src\github.com\robfig\revel\samples\booking\app\obs (from $GOPATH)
+
+ERROR 2013/08/12 14:43:02 build.go:215: Failed to parse build errors:
+ C:\Documents and Settings\jmartinbertdel-tp\Mes documents\Mercurial\Gopath\src\
+github.com\robfig\revel\samples\booking\app\tmp\main.go:13:2: cannot find packag
+e "github.com/robfig/revel/samples/booking//app/obs" in any of:
+        C:\Go\src\pkg\github.com\robfig\revel\samples\booking\app\obs (from $GOR
+OOT)
+        C:\Documents and Settings\jmartinbertdel-tp\Mes documents\Mercurial\Gopa
+th\src\github.com\robfig\revel\samples\booking\app\obs (from $GOPATH)
+C:\Documents and Settings\jmartinbertdel-tp\Mes documents\Mercurial\Gopath\src\g
+ithub.com\robfig\revel\samples\booking\app\tmp\main.go:14:2: cannot find package
+ "github.com/robfig/revel/samples/booking//app/ontrollers" in any of:
+        C:\Go\src\pkg\github.com\robfig\revel\samples\booking\app\ontrollers (fr
+om $GOROOT)
+        C:\Documents and Settings\jmartinbertdel-tp\Mes documents\Mercurial\Gopa
+th\src\github.com\robfig\revel\samples\booking\app\ontrollers (from $GOPATH)
+
+Abort: Failed to build: Go Compilation Error: See console for build error.
+
+C:\Windows\System32>revel package github.com/robfig/revel/samples/booking/  book
+ing
